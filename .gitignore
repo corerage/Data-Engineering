@@ -1,0 +1,18 @@
+
+*.tfstate
+*.tfstate.*
+**/.terraform/
+**/.terraform.lock.hcl
+**/.env
+**/logs/
+**/__pycache__/
+**/.history
+**/ny_taxi_postgres_data/*
+serving_dir/
+**/.ipynb_checkpoints/
+**/keys.json
+output.csv
+output.csv.gz
+taxi_zone_lookup.csv
+yellow_tripdata_2021-01.csv
+docker run -it `.sh
