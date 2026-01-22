@@ -184,6 +184,12 @@ cd Data-Engineering
 # Configure GCP credentials
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account-key.json
 
+#initialize airflow db
+docker-compose up airflow-init
+
+#build docker image
+docker-compose build
+
 # Start Airflow
 docker-compose up -d
 
@@ -208,7 +214,7 @@ open http://localhost:8080
 - ✅ Complete pipeline execution
 - ✅ Data verification in GCS and BigQuery
 
-📺 **[Watch Demo Video](#)** *((https://www.linkedin.com/posts/ebube-nwaigbo_dataengineering-apacheairflow-workfloworchestration-activity-7419412419615277056-L4rZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZzc0AByHfqnyXIEv0pGikLBn1jw68dB50))*
+📺 **[Watch Demo Video](#)** *(https://www.linkedin.com/posts/ebube-nwaigbo_dataengineering-apacheairflow-workfloworchestration-activity-7419412419615277056-L4rZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZzc0AByHfqnyXIEv0pGikLBn1jw68dB50)*
 
 ---
 
