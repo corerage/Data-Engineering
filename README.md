@@ -234,7 +234,8 @@ open http://localhost:8080
 **Courage Nwaigbo**  
 *Data Engineer | Data Scientist*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](www.linkedin.com/in/ebube-nwaigbo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://www.linkedin.com/in/ebube-nwaigbo)
+
 
 
 ---
