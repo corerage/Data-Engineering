@@ -16,3 +16,5 @@ output.csv.gz
 taxi_zone_lookup.csv
 yellow_tripdata_2021-01.csv
 docker run -it `.sh
+nconfig/keys.json
+**/airflow.cfg
